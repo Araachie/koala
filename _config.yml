@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
-title: KOALA\: A Kalman Optimization Algorithm with Loss Adaptivity
+title: "KOALA\: A Kalman Optimization Algorithm with Loss Adaptivity"
 author: Aram Davtyan, Sepehr Sameni, Llukman Cerkezi, Givi Meishvili, Adam Bielski, Paolo Favaro
 email: aram.davtyan@inf.unibe.ch
 description: "This is the project page for our AAAI2022 paper titled \"KOALA: A Kalman Optimization Algorithm with Loss Adaptivity\" "
