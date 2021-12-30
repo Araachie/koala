@@ -1,4 +1,4 @@
-### KOALA: A Kalman Optimization Algorithm with Loss Adaptivity
+## KOALA: A Kalman Optimization Algorithm with Loss Adaptivity
 
 ### Abstract
 
