@@ -5,7 +5,3 @@ Optimization is often cast as a deterministic problem, where the solution is fou
 ### Results
 
 Coming soon...
-
-### References
-
-Coming soon...
