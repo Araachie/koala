@@ -1,7 +1,19 @@
-<p align="center">
-  <b style="font-size: 24px">Paper:</b><br>
-  <a href="https://arxiv.org/abs/2107.03331" style="font-size: 24px; text-decoration: none">[Arxiv]</a>
-</p>
+<table class="center">
+  <tr>
+    <td>
+      <p align="center">
+        <b style="font-size: 24px">Paper:</b><br>
+        <a href="https://arxiv.org/abs/2107.03331" style="font-size: 24px; text-decoration: none">[Arxiv]</a>
+      </p>
+    </td>
+    <td>
+      <p align="center">
+        <b style="font-size: 24px">Code:</b><br>
+        <a href="https://github.com/Araachie/koala" style="font-size: 24px; text-decoration: none">[GitHub]</a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ### Abstract
 
