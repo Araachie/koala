@@ -30,7 +30,7 @@ Because of the central limit theorem, the minibatch loss ![](https://latex.codec
 For a feasible ![](https://latex.codecogs.com/svg.image?\hat&space;L^{\text{target}}) we can directly aim for ![](https://latex.codecogs.com/svg.image?\hat&space;L^{\text{target}}=\hat&space;L(\hat&space;x)).
 
 <p align="center">
-<img width="420" alt="Снимок экрана 2022-06-05 в 16 47 05" src="https://user-images.githubusercontent.com/32042066/172056265-f9351642-d4e7-41b1-b11b-2652acfcccd9.png">
+<img width="280" alt="Снимок экрана 2022-06-05 в 16 47 05" src="https://user-images.githubusercontent.com/32042066/172056265-f9351642-d4e7-41b1-b11b-2652acfcccd9.png">
 </p>
 
 We define training as the task of finding ![](https://latex.codecogs.com/svg.image?x_k) given the noisy minibatch risks ![](https://latex.codecogs.com/svg.image?\hat&space;L_k):
