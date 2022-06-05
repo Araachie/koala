@@ -15,7 +15,7 @@ In machine learning, given the dataset ![](https://latex.codecogs.com/svg.image?
 
 Due to large datasets, SGD-like algorithms use minibatch risks
 
-![](https://latex.codecogs.com/svg.image?\hat&space;L_k(x)=\frac{1}{|S_k|}\sum_{i\in&space;S_k}l(\xi_i;&space;x).)
+<img src="https://latex.codecogs.com/svg.image?\hat&space;L_k(x)=\frac{1}{|S_k|}\sum_{i\in&space;S_k}l(\xi_i;&space;x).">
 
 Because of the central limit theorem, the minibatch loss ![](https://latex.codecogs.com/svg.image?\hat&spaceL_k) tends to be Gaussian with mean the empirical loss ![](https://latex.codecogs.com/svg.image?\hat&space;L).
 
