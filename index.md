@@ -54,7 +54,7 @@ For more details, please, check the <a href="https://arxiv.org/abs/2107.03331">p
 
 ### Results
 
-We have tested our algorithm in comparison to SGD and Adam on CIFAR-10/100 and ImageNet32. The results are shown in the table below. For more quantitative results, please, refer to the <a href="https://arxiv.org/abs/2107.03331">full text</a>.
+We have tested our algorithm against SGD and Adam on CIFAR-10/100 and ImageNet32. The results are shown in the table below. For more quantitative results, please, refer to the <a href="https://arxiv.org/abs/2107.03331">full text</a>.
 
 <p align="center">
 <img width="420" alt="Снимок экрана 2022-06-05 в 16 55 17" src="https://user-images.githubusercontent.com/32042066/172056675-55715b81-bfda-4d1b-9d8e-b5a65b3d9110.png">
