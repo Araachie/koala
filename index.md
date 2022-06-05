@@ -21,7 +21,7 @@ Due to large datasets, SGD-like algorithms use minibatch risks
 <img src="https://latex.codecogs.com/svg.image?\hat&space;L_k(x)=\frac{1}{|S_k|}\sum_{i\in&space;S_k}l(\xi_i;&space;x).">
 </p>
   
-Because of the central limit theorem, the minibatch loss ![](https://latex.codecogs.com/svg.image?\hat&spaceL_k) tends to be Gaussian with mean the empirical loss ![](https://latex.codecogs.com/svg.image?\hat&space;L).
+Because of the central limit theorem, the minibatch loss ![](https://latex.codecogs.com/svg.image?\hat&space;L_k) tends to be Gaussian with mean the empirical loss ![](https://latex.codecogs.com/svg.image?\hat&space;L).
 
 <p align="center">
 <img width="420" src="https://user-images.githubusercontent.com/32042066/172056228-288c8da2-ca40-4d3e-94ff-3bc5f4d9c041.png">
