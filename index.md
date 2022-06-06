@@ -48,8 +48,10 @@ For a feasible ![](https://latex.codecogs.com/svg.image?\hat&space;L^{\text{targ
 We define training as the task of finding ![](https://latex.codecogs.com/svg.image?x_k) given the noisy minibatch risks ![](https://latex.codecogs.com/svg.image?\hat&space;L_k):
 
 <p align="center">
-<img src="https://latex.codecogs.com/svg.image?\hat&space;L_k(x_k)=\hat&space;L^{\text{target}}-v_k.">
+<img src="https://latex.codecogs.com/svg.image?\hat&space;L_k(x_k)=\hat&space;L^{\text{target}}-v_k,">
 </p>
+
+where <img src="https://latex.codecogs.com/svg.image?v_k\sim{\cal&space;N}(0,R_k).">
 
 Thus, we formulate the empirical risk minimization as a loss adaptivity task.
 
