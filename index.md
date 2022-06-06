@@ -71,3 +71,16 @@ We have tested our algorithm against SGD and Adam on CIFAR-10/100 and ImageNet32
 <p align="center">
 <img width="420" alt="Снимок экрана 2022-06-05 в 16 55 17" src="https://user-images.githubusercontent.com/32042066/172056675-55715b81-bfda-4d1b-9d8e-b5a65b3d9110.png">
 </p>
+
+### Citation
+
+The paper is to appear in the Proceedings of the 36th AAAI Conference on Artificial Intelligence. In the meantime we suggest using the arxiv preprint bibref.
+
+Davtyan, A., Sameni, S., Cerkezi, L., Meishvilli, G., Bielski, A., & Favaro, P. (2021). KOALA: A Kalman Optimization Algorithm with Loss Adaptivity. arXiv preprint arXiv:2107.03331.
+
+    @article{davtyan2021koala,
+      title    = {KOALA: A Kalman Optimization Algorithm with Loss Adaptivity},
+      author   = {Davtyan, Aram and Sameni, Sepehr and Cerkezi, Llukman and Meishvilli, Givi and Bielski, Adam and Favaro, Paolo},
+      journal  = {arXiv preprint arXiv:2107.03331},
+      year    = {2021}
+    }
