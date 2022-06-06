@@ -38,12 +38,6 @@ Because of the central limit theorem, the minibatch loss ![](https://latex.codec
 <p align="center">
 <img width="420" src="https://user-images.githubusercontent.com/32042066/172056228-288c8da2-ca40-4d3e-94ff-3bc5f4d9c041.png">
 </p>
-  
-For a feasible ![](https://latex.codecogs.com/svg.image?\hat&space;L^{\text{target}}) we can directly aim for ![](https://latex.codecogs.com/svg.image?\hat&space;L^{\text{target}}=\hat&space;L(\hat&space;x)).
-
-<p align="center">
-<img width="280" alt="Снимок экрана 2022-06-05 в 16 47 05" src="https://user-images.githubusercontent.com/32042066/172056265-f9351642-d4e7-41b1-b11b-2652acfcccd9.png">
-</p>
 
 We define training as the task of finding ![](https://latex.codecogs.com/svg.image?x_k) given the noisy minibatch risks ![](https://latex.codecogs.com/svg.image?\hat&space;L_k):
 
@@ -53,7 +47,11 @@ We define training as the task of finding ![](https://latex.codecogs.com/svg.ima
 
 where <img src="https://latex.codecogs.com/svg.image?v_k\sim{\cal&space;N}(0,R_k).">
 
-Thus, we formulate the empirical risk minimization as a loss adaptivity task.
+Thus, we formulate the empirical risk minimization as a loss *adaptivity* task. That is, for a feasible ![](https://latex.codecogs.com/svg.image?\hat&space;L^{\text{target}}) we can directly aim for ![](https://latex.codecogs.com/svg.image?\hat&space;L^{\text{target}}=\hat&space;L(\hat&space;x)).
+
+<p align="center">
+<img width="280" alt="Снимок экрана 2022-06-05 в 16 47 05" src="https://user-images.githubusercontent.com/32042066/172056265-f9351642-d4e7-41b1-b11b-2652acfcccd9.png">
+</p>
 
 By modeling the state dynamics (i.e., the network parameters) via a dynamical
 system we can use the Extended Kalman Filtering equations to identify the parameters, which resembles into an optimization framework that we call KOALA.
