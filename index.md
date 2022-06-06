@@ -45,7 +45,7 @@ We define training as the task of finding ![](https://latex.codecogs.com/svg.ima
 <img src="https://latex.codecogs.com/svg.image?\hat&space;L_k(x_k)=\hat&space;L^{\text{target}}-v_k,">
 </p>
 
-where <img src="https://latex.codecogs.com/svg.image?v_k\sim{\cal&space;N}(0,R_k)">, and ![](https://latex.codecogs.com/svg.image?\hat&space;L^{\text{target}}) is a feasible loss value that we aim for ![](https://latex.codecogs.com/svg.image?\hat&space;L^{\text{target}}=\hat&space;L(\hat&space;x)).
+where <img src="https://latex.codecogs.com/svg.image?v_k\sim{\cal&space;N}(0,R_k)"> and ![](https://latex.codecogs.com/svg.image?\hat&space;L^{\text{target}}) is a feasible loss value that we aim for ![](https://latex.codecogs.com/svg.image?\hat&space;L^{\text{target}}=\hat&space;L(\hat&space;x)).
 
 <p align="center">
 <img width="280" alt="Снимок экрана 2022-06-05 в 16 47 05" src="https://user-images.githubusercontent.com/32042066/172056265-f9351642-d4e7-41b1-b11b-2652acfcccd9.png">
