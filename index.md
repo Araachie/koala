@@ -1,20 +1,13 @@
-<table align="center">
-  <tr>
-    <td>
-      <p align="center">
-        <b style="font-size: 24px">Paper:</b><br>
-        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/20599" style="font-size: 24px; text-decoration: none">[Link]</a><br>
-        <a href="https://arxiv.org/abs/2107.03331" style="font-size: 24px; text-decoration: none">[Arxiv]</a>
-      </p>
-    </td>
-    <td>
-      <p align="center">
-        <b style="font-size: 24px">Supplementary:</b><br>
-        <a href="https://github.com/Araachie/koala/raw/gh-pages/KOALA___AAAI_supplemental_material.pdf" style="font-size: 24px; text-decoration: none">[PDF]</a>
-      </p>
-    </td>
-  </tr>
-</table>
+--------------------------
+<p align="center">
+  <b style="font-size: 24px">Paper:</b><br>
+  <a href="https://ojs.aaai.org/index.php/AAAI/article/view/20599" style="font-size: 24px; text-decoration: none">[Link]</a><br>
+  <a href="https://arxiv.org/abs/2107.03331" style="font-size: 24px; text-decoration: none">[Arxiv]</a>
+</p>
+<p align="center">
+  <b style="font-size: 24px">Supplementary:</b><br>
+  <a href="https://github.com/Araachie/koala/raw/gh-pages/KOALA___AAAI_supplemental_material.pdf" style="font-size: 24px; text-decoration: none">[PDF]</a>
+</p>
 
 ### Abstract
 
