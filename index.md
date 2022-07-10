@@ -9,7 +9,7 @@
     <td>
       <p align="center">
         <b style="font-size: 24px">Code:</b><br>
-        <a href="https://github.com/Araachie/koala" style="font-size: 24px; text-decoration: none">[GitHub]</a>
+        <a href="https://github.com/Araachie/koala/raw/gh-pages/KOALA___AAAI_supplemental_material.pdf" style="font-size: 24px; text-decoration: none">[Supplementary]</a>
       </p>
     </td>
   </tr>
