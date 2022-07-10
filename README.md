@@ -41,15 +41,21 @@
 
 ## Citation
 
-The paper is to appear in the Proceedings of the 36th AAAI Conference on Artificial Intelligence. In the meantime we suggest using the arxiv preprint bibref.
+For citation we recommend using the following bibref.
 
-Davtyan, A., Sameni, S., Cerkezi, L., Meishvili, G., Bielski, A., & Favaro, P. (2021). KOALA: A Kalman Optimization Algorithm with Loss Adaptivity. arXiv preprint arXiv:2107.03331.
+Davtyan, A., Sameni, S., Cerkezi, L., Meishvili, G., Bielski, A., & Favaro, P. (2022). KOALA: A Kalman Optimization Algorithm with Loss Adaptivity. Proceedings of the AAAI Conference on Artificial Intelligence, 36(6), 6471-6479. https://doi.org/10.1609/aaai.v36i6.20599
 
-    @article{davtyan2021koala,
-      title    = {KOALA: A Kalman Optimization Algorithm with Loss Adaptivity},
-      author   = {Davtyan, Aram and Sameni, Sepehr and Cerkezi, Llukman and Meishvili, Givi and Bielski, Adam and Favaro, Paolo},
-      journal  = {arXiv preprint arXiv:2107.03331},
-      year    = {2021}
+    @article{Davtyan_Sameni_Cerkezi_Meishvili_Bielski_Favaro_2022,
+    	title   = {KOALA: A Kalman Optimization Algorithm with Loss Adaptivity},
+        volume  = {36},
+        url     = {https://ojs.aaai.org/index.php/AAAI/article/view/20599},
+	DOI     = {10.1609/aaai.v36i6.20599},
+	number  = {6},
+	journal = {Proceedings of the AAAI Conference on Artificial Intelligence},
+	author  = {Davtyan, Aram and Sameni, Sepehr and Cerkezi, Llukman and Meishvili, Givi and Bielski, Adam and Favaro, Paolo},
+	year    = {2022},
+	month   = {Jun.},
+	pages   = {6471-6479} 
     }
 
 ## Prerequisites
