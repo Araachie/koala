@@ -1,19 +1,42 @@
---------------------------
-<p align="center">
-  <b style="font-size: 24px">Paper:</b><br>
-  <a href="https://ojs.aaai.org/index.php/AAAI/article/view/20599" style="font-size: 24px; text-decoration: none">[Link]</a><br>
-  <a href="https://arxiv.org/abs/2107.03331" style="font-size: 24px; text-decoration: none">[Arxiv]</a>
-</p>
-<p align="center">
-  <b style="font-size: 24px">Supplementary:</b><br>
-  <a href="https://github.com/Araachie/koala/raw/gh-pages/KOALA___AAAI_supplemental_material.pdf" style="font-size: 24px; text-decoration: none">[PDF]</a>
-</p>
+<style>
+    #two_col {
+     width:96%;
+     margin:0 auto;
+  }
 
-### Abstract
+  #left_col {
+     float:left;
+     width:46%;
+  }
+
+  #right_col {
+     float:right;
+     width:46%;
+  }
+</style>
+
+--------------------------
+<div id="two_col">
+  <div id="left_col">
+    <p align="center">
+      <b style="font-size: 24px">Paper:</b><br>
+      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/20599" style="font-size: 24px; text-decoration: none">[Link]</a><br>
+      <a href="https://arxiv.org/abs/2107.03331" style="font-size: 24px; text-decoration: none">[Arxiv]</a>
+    </p>
+  </div>
+  <div id="right_col">
+    <p align="center">
+      <b style="font-size: 24px">Supplementary:</b><br>
+      <a href="https://github.com/Araachie/koala/raw/gh-pages/KOALA___AAAI_supplemental_material.pdf" style="font-size: 24px; text-decoration: none">[PDF]</a>
+    </p>
+  </div>
+</div>
+
+## Abstract
 
 Optimization is often cast as a deterministic problem, where the solution is found through some iterative procedure such as gradient descent. However, when training neural networks the loss function changes over (iteration) time due to the randomized selection of a subset of the samples. This randomization turns the optimization problem into a stochastic one. We propose to consider the loss as a noisy observation with respect to some reference optimum. This interpretation of the loss allows us to adopt Kalman filtering as an optimizer, as its recursive formulation is designed to estimate unknown parameters from noisy measurements. Moreover, we show that the Kalman Filter dynamical model for the evolution of the unknown parameters can be used to capture the gradient dynamics of advanced methods such as Momentum and Adam. We call this stochastic optimization method KOALA, which is short for Kalman Optimization Algorithm with Loss Adaptivity. KOALA is an easy to implement, scalable, and efficient method to train neural networks. We provide convergence analysis and show experimentally that it yields parameter estimates that are on par with or better than existing state of the art optimization algorithms across several neural network architectures and machine learning tasks, such as computer vision and language modeling.
 
-### Method
+## Method
 
 In machine learning, given the dataset ![](https://latex.codecogs.com/svg.image?\xi_i,&space;i=1\dots&space;m) and the loss function ![](https://latex.codecogs.com/svg.image?l(\xi;&space;x)), we are interested in minimizing the empirical risk with respect to network parameters ![](https://latex.codecogs.com/svg.image?x)), i.e., we want to find a ![](https://latex.codecogs.com/svg.image?\hat&space;x) such that
 
@@ -56,7 +79,7 @@ With different state dynamics we derive two algorithms: KOALA-V (Vanilla) and KO
   
 For more details, please, check the <a href="https://arxiv.org/abs/2107.03331">paper</a>.
 
-### Results
+## Results
 
 We have tested our algorithm against SGD and Adam on CIFAR-10/100 and ImageNet32. The results are shown in the table below. For more quantitative results, please, refer to the <a href="https://arxiv.org/abs/2107.03331">full text</a>.
 
@@ -64,7 +87,7 @@ We have tested our algorithm against SGD and Adam on CIFAR-10/100 and ImageNet32
 <img width="420" alt="Снимок экрана 2022-06-05 в 16 55 17" src="https://user-images.githubusercontent.com/32042066/172056675-55715b81-bfda-4d1b-9d8e-b5a65b3d9110.png">
 </p>
 
-### Citation
+## Citation
 
 For citation we recommend using the following bibref.
 
