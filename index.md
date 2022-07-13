@@ -2,6 +2,7 @@
     #two_col {
      width:96%;
      margin:0 auto;
+     height:100px;
   }
 
   #left_col {
